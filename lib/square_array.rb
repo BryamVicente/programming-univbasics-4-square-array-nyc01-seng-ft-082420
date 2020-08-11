@@ -3,7 +3,8 @@ def square_array(array)
   counter = 0
   new_array = []
 
-  while array[counter] {|square| new_array << square **2}
+  while counter < array.length
+    array.index **2
     counter += 1
   end
   new_array
