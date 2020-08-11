@@ -4,7 +4,7 @@ def square_array(array)
   new_array = []
 
   while counter < array.length do
-    puts array.index[counter]**2
+    puts array.index**2
     counter +=1
   end
   new_array
